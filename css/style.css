@@ -18,6 +18,9 @@
     width: 150px;
     height: 150px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .green{
@@ -26,4 +29,10 @@
 
 .red{
     background-color: tomato;
+}
+
+.square span{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
